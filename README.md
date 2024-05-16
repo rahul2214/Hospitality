@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+clone the file using
+```https://github.com/rahul2214/Hospitality.git```
 
 ### `npm start`
 
