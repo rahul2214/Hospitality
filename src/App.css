@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.myModal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.myModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+.body-form {
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.booking-card {
+    background-color: #ecdede;  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin: 20px;
+}
+
+.booking-form input,
+.booking-form textarea,
+.body-form select,
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.booking-form button {
+  background-color: #a78181;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #906767;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  display: flex ; 
+  flex-direction: row !important;
+  
+  padding: 20px;
+}
+
+.card-img {
+  width: 170px !important;
+  height: 170px;
+  padding: 4px;
+  border-radius: 50%  !important;
+  border:4px solid #a78181 !important;
+  object-fit: cover;
+  margin: 20px 20px;
+  align-items: center;
+}
+
+.card-body {
+  flex-grow: 1;
+  padding: 20px;
+  align-items: center;
+  color: #333;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  
+
+  background-color: #a78181 !important;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #906767 !important;
+}
+.review {
+  width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: #000000;
+}
