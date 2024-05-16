@@ -6,12 +6,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 clone the file using and run
-```https://github.com/rahul2214/Hospitality.git```
-```cd Hospitality ```
-``` npm install```
-```npm start```
+```bash
+https://github.com/rahul2214/Hospitality.git
+```
+```bash
+cd Hospitality
+```
+```bash
+npm install
+```
+```bash
+npm start
+```
 open another terminal with same current directory and run
-``` npx json-server --watch db.json --port 4500```
+```bash
+npx json-server --watch db.json --port 4500
+```
 to start the json server
 ### `npm start`
 
